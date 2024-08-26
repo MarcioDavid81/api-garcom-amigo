@@ -27,4 +27,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   });
 });
 
-app.listen(3333, () => console.log('Servidor rodando, até que um dia né pangó!'));
+app.listen(process.env.PORT, () => console.log('Servidor rodando, até que um dia né pangó!'));
